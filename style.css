@@ -1,0 +1,184 @@
+body {
+    margin: 0;
+    height: auto;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    background: url("imagenes/421aa6aa-b0a6-4b81-bac9-4f2f0aeb228a.jpg");
+    background-size: cover;
+}
+
+.encabezado,
+.navegacion {
+    display: flex;
+    justify-content: center;
+}
+
+.titulo {
+    font-family: Georgia;
+    font-size: 800%;
+    color: rgba(0, 109, 199, 1);
+    text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.3);
+    margin-left: 10%;
+    text-align: center;
+}
+
+.nombre {
+    font-family: Georgia;
+    font-size: 500%;
+    color: rgba(0, 109, 199, 1);
+}
+
+.presentacion {
+    font-size: medium;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 500%;
+    opacity: 60%;
+    color: rgba(0, 109, 199, 1);
+}
+
+.presentacion1 {
+    font-family: Georgia;
+    font-size: 400%;
+    color: rgba(0, 109, 199, 1);
+
+}
+
+.logos,
+.redesImg {
+    display: flex;
+    justify-content: space-between;
+    height: 8%;
+    margin-left: 10%;
+    margin-right: 10%;
+
+}
+
+.redesLink {
+    display: flex;
+    justify-content: space-between;
+    height: 8%;
+    margin-left: 11%;
+    margin-right: 10%;
+    padding-bottom: 5%;
+}
+
+.imagen {
+    width: 1000px;
+    height: 1300px;
+    border-radius: 15%;
+    margin-right: 1%;
+}
+
+.btnYo,
+.btnProyectos,
+.btnContacto {
+    background-color: rgb(146, 188, 223);
+    font-size: 60px;
+    height: 150px;
+    width: 33.333%;
+    color: rgba(0, 109, 199, 1);
+    text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.3);
+}
+
+.btnYo:hover,
+.btnProyectos:hover,
+.btnContacto:hover {
+    background-color: rgba(0, 109, 199, 1);
+    color: azure;
+    text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.3);
+}
+
+.cuerpo {
+    background: url("imagenes/421aa6aa-b0a6-4b81-bac9-4f2f0aeb228a.jpg");
+    background-size: cover;
+    margin: none;
+}
+
+.aa {
+    font-family: Georgia;
+    font-size: 600%;
+    color: rgba(0, 109, 199, 1);
+    text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    margin: 4%;
+
+}
+
+.yo {
+    font-size: medium;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 600%;
+    opacity: 60%;
+    color: rgba(0, 109, 199, 1);
+    padding-left: 20%;
+    padding-right: 20%;
+    text-align: justify;
+}
+
+.diploma {
+    height: 500px;
+    width: 600px;
+    text-align: center;
+    padding: 3%;
+}
+
+.a {
+    display: flex;
+    justify-content: center;
+}
+
+.detalle {
+    display: flex;
+    flex-direction: column;
+}
+
+.videos {
+    width: 1000px;
+    align-content: center;
+}
+
+.aboutMe,
+.detalle,
+.contacto {
+    display: none;
+}
+
+#imagen1 {
+    height: 80px;
+    width: 70px;
+
+}
+
+.gh {
+    color: rgba(14, 3, 172, 0.737);
+    font-size: 100px;
+}
+
+.descripcion,
+.videos, .titulos{
+    font-size: medium;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 600%;
+    opacity: 60%;
+    color: rgba(0, 109, 199, 1);
+    padding-left: 20%;
+    padding-right: 20%;
+    text-align: justify;
+}
+
+.titulos {
+    font-size: medium;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 600%;
+    text-align: center;
+    color: rgb(0, 109, 199);
+    padding-left: 20%;
+    padding-right: 20%;
+    text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.3);
+    text-decoration: underline;
+    margin-top: 300px;
+
+}
